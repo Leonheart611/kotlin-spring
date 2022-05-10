@@ -7,10 +7,6 @@ plugins {
     kotlin("plugin.spring") version "1.5.32"
 }
 
-tasks.jar {
-    manifest.attributes["Main-Class"] = "io.paketo.demo.DemoApplication"
-}
-
 group = "io.paketo"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
